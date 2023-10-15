@@ -10,7 +10,7 @@ function Home() {
       .then((r) => r.json())
       .then(setArticles);
   }, []);
-
+  
   return (
     <main>
       {articles.map((article) => {
